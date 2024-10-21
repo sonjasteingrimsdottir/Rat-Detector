@@ -67,3 +67,12 @@ To run the model on your local machine, follow these steps:
    Use the `preprocess_data.py` script to clean and prepare the dataset:
    ```bash
    python preprocess_data.py --input <data_directory> --output <processed_data_directory>
+
+2. **Train the Model:** Train the CNN using the training script:
+   python train_model.py --epochs 50 --batch_size 32 --data_dir <processed_data_directory>
+
+3. **Test the Model:** After training, you can test the model on new images:
+   python test_model.py --image <path_to_image>
+
+4. **Deploy for real-time detection:** You can run a live detection demo using a webcam or video feed:
+   python live_detection.py
