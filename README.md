@@ -76,3 +76,4 @@ To run the model on your local machine, follow these steps:
 
 4. **Deploy for real-time detection:** You can run a live detection demo using a webcam or video feed:
    python live_detection.py
+
